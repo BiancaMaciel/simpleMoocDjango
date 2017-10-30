@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'mooc.core',
+    'mooc.accounts',
     'mooc.courses',
 )
 
@@ -121,3 +122,10 @@ EMAIL_HOST_PASSWORD = '!BM100593'
 EMAIL_PORT = 587
 
 CONTACT_EMAIL = 'bianca.maciel.c@gmail.com'
+
+
+#Auth
+LOGIN_URL = 'accounts:login'
+LOGIN_REDIRECT_URL = 'core:home'
+LOGOUT_URL = 'accounts:logout'
+AUTH_USER_MODEL = 'accounts.User' #indica que vamos usar nosso model e não o do django que vem por padrão
