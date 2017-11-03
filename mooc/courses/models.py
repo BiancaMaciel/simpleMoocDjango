@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+import os
+import sys
 from django.db import models
 
 class CourseManager(models.Manager):
