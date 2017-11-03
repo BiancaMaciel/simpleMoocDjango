@@ -1,3 +1,7 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+import os
+import sys
 from django.shortcuts import render
 from django.http import HttpResponse
 
