@@ -1,7 +1,4 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-import os
-import sys
+
 from django.template.loader import render_to_string
 from django.template.defaultfilters import striptags
 from django.core.mail import EmailMultiAlternatives

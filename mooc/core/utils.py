@@ -7,10 +7,6 @@ def random_key cria caracteres randomico.
 generate -> vai dar um salt texto randominco + email para não correr o risco de criar a chave duas vezes 
 '''
 
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-import os
-import sys
 import hashlib
 import string
 import random
