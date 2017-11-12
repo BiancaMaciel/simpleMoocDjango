@@ -21,7 +21,6 @@ User = get_user_model()
 def dashboard(request):
     template_name = 'accounts/dashboard.html'
     context = {}
-    context['enrollments'] = Enrollment.objects.filter(user=request.user)
     return render(request, template_name, context)
 
 def register(request):
