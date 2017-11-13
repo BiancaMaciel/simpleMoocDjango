@@ -5,5 +5,8 @@ urlpatterns = patterns('mooc.courses.views',
     #url(r'^(?P<pk>\d+)/$', 'details', name='details'),
     url(r'^(?P<slug>[\w_-]+)/$', 'details', name='details'),
     url(r'^(?P<slug>[\w_-]+)/inscricao/$', 'enrollment', name='enrollment'),
+    url(r'^(?P<slug>[\w_-]+)/anuncios/$', 'announcements', 
+        name='announcements'),
+
 
 )
