@@ -1,7 +1,3 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-import os
-import sys
 from django.contrib import admin
 
 from .models import Course, Enrollment, Announcement, Comment
