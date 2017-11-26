@@ -10,4 +10,8 @@ urlpatterns = patterns('mooc.courses.views',
     url(r'^(?P<slug>[\w_-]+)/anuncios/$', 'announcements', 
         name='announcements'),
 
+    url(r'^(?P<slug>[\w_-]+)/anuncios/(?P<pk>\d+)/$', 'show_announcement',
+        name='show_announcement'),
+
+
 )
